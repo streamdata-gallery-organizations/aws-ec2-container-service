@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListContainerInstances&k=1:
+  /?Action=ListContainerInstances:
     get:
       summary: ' List Container Instances '
       description: Returns a list of container instances in a specified cluster
@@ -41,7 +41,8 @@ paths:
         200:
           description: OK
       tags:
-      - container instances
+      - containers
+      - instances
 definitions: []
 x-collection-name: AWS EC2 Container Service
 x-streamrank:
