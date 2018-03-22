@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutAttributes&k=1:
+  /?Action=PutAttributes:
     get:
       summary: ' Put Attributes '
       description: Create or update an attribute on an Amazon ECS resource
