@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartTask&k=1:
+  /?Action=StartTask:
     get:
       summary: ' Start Task '
       description: |-
