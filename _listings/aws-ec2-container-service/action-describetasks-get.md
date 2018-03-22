@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTasks&k=1:
+  /?Action=DescribeTasks:
     get:
       summary: ' Describe Tasks '
       description: Describes a specified task or tasks
