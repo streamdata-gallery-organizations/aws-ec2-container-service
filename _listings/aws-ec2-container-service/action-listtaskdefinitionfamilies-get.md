@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTaskDefinitionFamilies&k=1:
+  /?Action=ListTaskDefinitionFamilies:
     get:
       summary: ' List Task Definition Families '
       description: |-
