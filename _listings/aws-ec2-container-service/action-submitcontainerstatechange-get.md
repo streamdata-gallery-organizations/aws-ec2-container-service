@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SubmitContainerStateChange&k=1:
+  /?Action=SubmitContainerStateChange:
     get:
       summary: ' Submit Container State Change '
       description: This action is only used by the Amazon EC2 Container Service agent,
