@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteAttributes&k=1:
+  /?Action=DeleteAttributes:
     get:
       summary: ' Delete Attributes '
       description: Deletes one or more custom attributes from an Amazon ECS resource
