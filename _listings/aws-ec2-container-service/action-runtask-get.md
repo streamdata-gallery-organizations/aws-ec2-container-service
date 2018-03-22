@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RunTask&k=1:
+  /?Action=RunTask:
     get:
       summary: ' Run Task '
       description: Starts a new task using the specified task definition
