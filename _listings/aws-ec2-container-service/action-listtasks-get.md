@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTasks&k=1:
+  /?Action=ListTasks:
     get:
       summary: ' List Tasks '
       description: Returns a list of tasks for a specified cluster
