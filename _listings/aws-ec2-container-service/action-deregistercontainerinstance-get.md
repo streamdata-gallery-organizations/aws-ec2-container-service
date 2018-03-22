@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterContainerInstance&k=1:
+  /?Action=DeregisterContainerInstance:
     get:
       summary: ' Deregister Container Instance '
       description: Deregisters an Amazon ECS container instance from the specified
@@ -35,7 +35,8 @@ paths:
         200:
           description: OK
       tags:
-      - container instances
+      - containers
+      - instances
 definitions: []
 x-collection-name: AWS EC2 Container Service
 x-streamrank:
