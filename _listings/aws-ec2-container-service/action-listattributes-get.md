@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAttributes&k=1:
+  /?Action=ListAttributes:
     get:
       summary: ' List Attributes '
       description: |-
