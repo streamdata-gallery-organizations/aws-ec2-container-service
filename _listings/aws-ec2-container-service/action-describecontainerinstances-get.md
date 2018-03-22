@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeContainerInstances&k=1:
+  /?Action=DescribeContainerInstances:
     get:
       summary: ' Describe Container Instances '
       description: Describes Amazon EC2 Container Service container instances
@@ -30,7 +30,8 @@ paths:
         200:
           description: OK
       tags:
-      - container instances
+      - containers
+      - instances
 definitions: []
 x-collection-name: AWS EC2 Container Service
 x-streamrank:
