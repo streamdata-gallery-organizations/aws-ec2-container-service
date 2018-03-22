@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopTask&k=1:
+  /?Action=StopTask:
     get:
       summary: ' Stop Task '
       description: Stops a running task
